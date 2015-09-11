@@ -3,7 +3,7 @@ document.body.onload=function(){
   var now = new Date();
   var header = document.createElement('h1');
 
-  if(now.getDay() == 5 ){
+  if(now.getDay() == 5){
     // :)
     header.innerHTML = 'YES';
     document.body.appendChild(header);
